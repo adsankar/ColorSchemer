@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ColorSchemer</string>
+<string name="color_info_activity">Color Info Activity</string>
+    <string name="make">Generate!</string>
+    <string name="filler_text">Lorem Ipsum</string>
+    <string name="radio_1">Change Text and Background</string>
+    <string name="radio_2">Keep Text Color</string>
+    <string name="radio_3">Keep Background Color</string>
+    <string name="opacity">Opacity</string>
+    <string name="color_info">Color Info</string>
+    <string name ="filler_value">(0,0,0)</string>
+    <string name ="hex_filler">#FF0000</string>
+    <string name="background_label">Background</string>
+    <string name="text_label">Text</string>
+    <string name="RGB_label">RGB</string>
+    <string name="HSV_label">HSV</string>
+    <string name="hex_label">Hex</string>
+    <string name ="blank"> </string>
+    <string name ="return_button">Tap Screen to Return</string>
+</resources>

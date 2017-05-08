@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:background="#000000"
+    android:onClick="onReturnClick"
+    android:clickable="true">
+    <TableRow>
+        <TextView
+            android:text="@string/blank"
+
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/text_label"
+            android:textColor="@color/info_label_color"
+            android:gravity="left"
+            android:padding="3dip"
+            android:textSize="@dimen/info_text_size" />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/RGB_label"
+            android:textSize="@dimen/info_text_size"
+            android:textColor="@color/info_primary_color"
+            android:padding="3dip" />
+        <TextView
+            android:textColor="@color/info_primary_color"
+            android:text="@string/filler_value"
+            android:gravity="right"
+            android:padding="3dip"
+            android:id="@+id/textRGB"
+            android:textSize="@dimen/info_text_size" />
+
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textColor="@color/info_primary_color"
+            android:text="@string/hex_label"
+            android:textSize="@dimen/info_text_size"
+            android:padding="3dip" />
+        <TextView
+            android:textColor="@color/info_primary_color"
+            android:text="@string/hex_filler"
+            android:textSize="@dimen/info_text_size"
+            android:padding="3dip"
+            android:gravity="right"
+            android:id="@+id/textHex" />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textColor="@color/info_primary_color"
+            android:text="@string/HSV_label"
+            android:textSize="@dimen/info_text_size"
+            android:padding="3dip" />
+        <TextView
+            android:textColor="@color/info_primary_color"
+            android:text="@string/filler_value"
+            android:textSize="@dimen/info_text_size"
+            android:padding="3dip"
+            android:gravity="right"
+            android:id="@+id/textHSV" />
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:textColor="@color/info_primary_color"
+            android:text="@string/opacity"
+            android:textSize="@dimen/info_text_size"
+            android:padding="3dip" />
+        <TextView
+            android:textColor="@color/info_primary_color"
+            android:text="@string/opacity"
+            android:textSize="@dimen/info_text_size"
+            android:gravity="right"
+            android:padding="3dip"
+            android:id="@+id/opacityTextView" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="@string/blank"
+            android:gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/background_label"
+            android:textColor="@color/info_label_color"
+            android:textSize="@dimen/info_text_size"
+            android:gravity="left"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textColor="@color/info_primary_color"
+            android:text="@string/RGB_label"
+            android:textSize="@dimen/info_text_size"
+            android:padding="3dip" />
+        <TextView
+            android:textColor="@color/info_primary_color"
+            android:text="@string/filler_value"
+            android:gravity="right"
+            android:padding="3dip"
+            android:textSize="@dimen/info_text_size"
+            android:id="@+id/bkgRGB"/>
+
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textColor="@color/info_primary_color"
+            android:text="@string/hex_label"
+            android:textSize="@dimen/info_text_size"
+            android:padding="3dip" />
+        <TextView
+            android:textColor="@color/info_primary_color"
+            android:text="@string/hex_filler"
+            android:textSize="@dimen/info_text_size"
+            android:padding="3dip"
+            android:gravity="right"
+            android:id="@+id/bkgHex" />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textColor="@color/info_primary_color"
+            android:text="@string/HSV_label"
+            android:textSize="@dimen/info_text_size"
+            android:padding="3dip" />
+        <TextView
+            android:textColor="@color/info_primary_color"
+            android:text="@string/filler_value"
+            android:textSize="@dimen/info_text_size"
+            android:padding="3dip"
+            android:gravity="right"
+            android:id="@+id/bkgHSV" />
+
+    </TableRow>
+
+       <TextView android:id="@+id/info_screen_content" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:keepScreenOn="true"
+        android:textStyle="normal" android:textSize="@dimen/return_button_size" android:gravity="center"
+        android:text="@string/return_button" android:textColor="@color/info_label_color"
+        android:onClick="onReturnClick"
+        android:clickable="true" />
+</TableLayout>
+
+
+
+
+
